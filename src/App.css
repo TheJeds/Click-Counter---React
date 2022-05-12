@@ -28,5 +28,6 @@ html, body{
 
 .TheJeds-logo{
   border-radius: 30px;
+  border: 2px solid white;
   height: 125px; 
 }
