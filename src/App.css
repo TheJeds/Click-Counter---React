@@ -5,7 +5,8 @@
 }
 
 html, body{
-  background-color: #23344e;
+  background: rgb(2,0,36);
+  background-image: linear-gradient(to left, #020024, #020734, #000d44, #000e54, #000e64, #04207b, #043292, #0044aa, #006ac9, #008ee0, #00b1f2, #00d4ff);
 }
 
 .App{
@@ -27,5 +28,5 @@ html, body{
 
 .TheJeds-logo{
   border-radius: 30px;
-  height: 125px;
+  height: 125px; 
 }
