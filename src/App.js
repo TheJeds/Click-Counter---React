@@ -1,5 +1,6 @@
 import './App.css';
 import Button from './components/Button';
+import Counter from './components/Counter';
 import LogoTheJeds from './images/Logo-TheJeds.png'
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
         <img className="TheJeds-logo" src={LogoTheJeds} alt="Logo TheJeds" />
       </div>
       <div className='container-main'>
+        <Counter clicksC='5' />
         <Button text='Click' isButtonClick={true} handleClick={handleClick} />
         <Button text='Reset' isButtonClick={false} handleClick={resetCounter} />
       </div>
